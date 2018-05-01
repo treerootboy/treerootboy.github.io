@@ -50,7 +50,7 @@
   <h1>Hello Hugo</h1>
   <span class="post-date">Sun, Apr 29, 2018</span>
   <blockquote>
-<p>Hugo 是使用 golang 编写的静态网站生成框架，可用于构建官网、博客等，号称是全世界最快的
+<p>Hugo 是使用 golang 编写的静态生成框架，可用于构建官网、博客等，号称是全世界最快的
 基于学习 golang 的初衷，我的 blog 也顺势转成 golang</p>
 </blockquote>
 
@@ -65,31 +65,17 @@
 <h3 id="安装-hugo">安装 Hugo</h3>
 
 <pre><code class="language-bash">brew install hugo
-</code></pre>
 
-<p>检查安装版本，这里安装的是0.40.1</p>
+# 创建一个新 blog
+hugo new site goblog
 
-<pre><code class="language-bash">hugo version
-
-Hugo Static Site Generator v0.40.1 darwin/amd64 BuildDate:
-</code></pre>
-
-<h3 id="创建一个新-blog">创建一个新 blog</h3>
-
-<pre><code class="language-bash">hugo new site goblog
-</code></pre>
-
-<h3 id="添加一个主题-hyde">添加一个主题 Hyde</h3>
-
-<pre><code class="language-bash">cd goblog
+# 添加一个主题 Hyde
+cd goblog
 git clone https://github.com/spf13/hyde.git themes/hyde
 echo 'themes = &quot;hyde&quot;' &gt;&gt; config.toml
-</code></pre>
 
-<h3 id="运行本地web服务">运行本地web服务</h3>
-
-<pre><code class="language-bash">hugo server -D
-
+# 运行本地web服务
+hugo server -D
                    | EN  
 +------------------+----+
   Pages            |  3  
@@ -110,16 +96,17 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 </code></pre>
 
-<p>这是打开链接 <a href="http://localhost:1313/">http://localhost:1313/</a> 可以看到一个空白页
-[补图]</p>
+<p>打开链接 <a href="http://localhost:1313/">http://localhost:1313/</a> 可以看到一个空白页
+<img src="/images/2018050201471525196860.png" alt="" /></p>
 
 <h3 id="写出你第一篇文章">写出你第一篇文章</h3>
 
 <pre><code class="language-bash">hugo new posts/hello-world.md
-echo &quot;# Hello World&quot; &gt;&gt; contents/posts/hello-world.md
+echo &quot;# Hello World&quot; &gt;&gt; content/posts/hello-world.md
 </code></pre>
 
-<p>刷新页面你就可以看到你的第一篇文章了</p>
+<p>刷新页面你就可以看到你的第一篇文章了
+<img src="/images/2018050201511525197101.png" alt="" /></p>
 
 <p>接下来要发布上 github</p>
 
@@ -148,7 +135,7 @@ git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;
 因为 hugo new 默认的是 Draf 草稿，直接发布看不到文章</p>
 </blockquote>
 
-<pre><code class="language-bash">sed -i 's/draft\: true//gs' contents/posts/hello-world.md
+<pre><code class="language-bash">sed -i -e 's/draft: true//g' content/posts/hello-world.md
 </code></pre>
 
 <pre><code class="language-bash">hugo
@@ -162,7 +149,7 @@ cd ..
 </code></pre>
 
 <p>然后访问 <USERNAME>.github.io
-[补图]</p>
+<img src="/images/2018050201531525197213.png" alt="" /></p>
 </div>
 
 
