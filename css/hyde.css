@@ -32,8 +32,8 @@
  */
 
 html {
-  font-family: Roboto, "PT Sans", PingFangSC-Ultralight, STHeiti-Ultralight, Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-family: "PT Sans", PingFangSC-Ultralight, STHeiti-Ultralight, Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 @media (min-width: 48em) {
   html {
