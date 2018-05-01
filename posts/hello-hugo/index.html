@@ -131,12 +131,12 @@ git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;
 <h3 id="发布">发布</h3>
 
 <blockquote>
-<p>发布前需要修改 contents/posts/hello-world.md
-因为 hugo new 默认的是 Draf 草稿，直接发布看不到文章</p>
-</blockquote>
+<p>发布前需要修改 contents/posts/hello-world.md，
+因为 hugo new 默认的是 Draf 草稿，直接发布看不到文章
+，需要将文章的 draft: true 去掉</p>
 
-<pre><code class="language-bash">sed -i -e 's/draft: true//g' content/posts/hello-world.md
-</code></pre>
+<p>sed -i -e &rsquo;s/draft: true//g&rsquo; content/posts/hello-world.md</p>
+</blockquote>
 
 <pre><code class="language-bash">hugo
 
@@ -148,7 +148,7 @@ git push origin master
 cd ..
 </code></pre>
 
-<p>然后访问 <USERNAME>.github.io
+<p>然后访问 &lt;USERNAME&gt;.github.io
 <img src="/images/2018050201531525197213.png" alt="" /></p>
 </div>
 
