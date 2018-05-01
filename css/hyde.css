@@ -167,67 +167,6 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .content h1,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .content h1,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .content h1,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .content h1,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .content h1,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
 /* Blue */
 .theme-base-0d .sidebar {
   background-color: #6a9fb5;
@@ -238,22 +177,29 @@ a.sidebar-nav-item:focus {
   color: #6a9fb5;
 }
 
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
+/*h1,h2,h3,h4,h5,h6 {
+  color: #6a9fb5;
+}*/
+
+h1 {
+  opacity: 1;
 }
-.theme-base-0e .content a,
-.theme-base-0e .content h1,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
+h2 {
+  opacity: 0.9;
+}
+h3 {
+  opacity: 0.8;
+}
+h4 {
+  opacity: 0.7;
+}
+h5 {
+  opacity: 0.6;
+}
+h6 {
+  opacity: 0.5;
 }
 
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .content h1,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+body {
+  color: #616161;
 }

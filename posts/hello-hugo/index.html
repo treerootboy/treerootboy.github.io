@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+<html  lang="zh-cn">
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="UTF-8">
   <meta name="generator" content="Hugo 0.40.1" />
 
   
@@ -51,48 +49,46 @@
     <div class="post">
   <h1>Hello Hugo</h1>
   <span class="post-date">Sun, Apr 29, 2018</span>
-  
-
-<blockquote>
+  <blockquote>
 <p>Hugo 是使用 golang 编写的静态网站生成框架，可用于构建官网、博客等，号称是全世界最快的
 基于学习 golang 的初衷，我的 blog 也顺势转成 golang</p>
 </blockquote>
 
 <p>下面介绍如何使用 Hugo + Github Page 构建个人博客</p>
 
-<blockquote>
 <p>以下教程均以 macos 环境为主</p>
-</blockquote>
+
+<p></p>
 
 <h2 id="quick-start">Quick Start</h2>
 
 <h3 id="安装-hugo">安装 Hugo</h3>
 
-<pre><code>brew install hugo
+<pre><code class="language-bash">brew install hugo
 </code></pre>
 
 <p>检查安装版本，这里安装的是0.40.1</p>
 
-<pre><code>hugo version
+<pre><code class="language-bash">hugo version
 
 Hugo Static Site Generator v0.40.1 darwin/amd64 BuildDate:
 </code></pre>
 
 <h3 id="创建一个新-blog">创建一个新 blog</h3>
 
-<pre><code>hugo new site goblog
+<pre><code class="language-bash">hugo new site goblog
 </code></pre>
 
 <h3 id="添加一个主题-hyde">添加一个主题 Hyde</h3>
 
-<pre><code>cd goblog
+<pre><code class="language-bash">cd goblog
 git clone https://github.com/spf13/hyde.git themes/hyde
 echo 'themes = &quot;hyde&quot;' &gt;&gt; config.toml
 </code></pre>
 
 <h3 id="运行本地web服务">运行本地web服务</h3>
 
-<pre><code>hugo server -D
+<pre><code class="language-bash">hugo server -D
 
                    | EN  
 +------------------+----+
@@ -119,7 +115,7 @@ Press Ctrl+C to stop
 
 <h3 id="写出你第一篇文章">写出你第一篇文章</h3>
 
-<pre><code>hugo new posts/hello-world.md
+<pre><code class="language-bash">hugo new posts/hello-world.md
 echo &quot;# Hello World&quot; &gt;&gt; contents/posts/hello-world.md
 </code></pre>
 
@@ -135,7 +131,7 @@ echo &quot;# Hello World&quot; &gt;&gt; contents/posts/hello-world.md
 
 <h3 id="配置-git">配置 git</h3>
 
-<pre><code>git init
+<pre><code class="language-bash">git init
 git remote add -b master origin https://github.com/&lt;USERNAME&gt;/goblog.git
 git add .
 git commit -m 'Init Blog Website'
@@ -152,10 +148,10 @@ git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;
 因为 hugo new 默认的是 Draf 草稿，直接发布看不到文章</p>
 </blockquote>
 
-<pre><code>sed -i 's/draft\: true//gs' contents/posts/hello-world.md
+<pre><code class="language-bash">sed -i 's/draft\: true//gs' contents/posts/hello-world.md
 </code></pre>
 
-<pre><code>hugo
+<pre><code class="language-bash">hugo
 
 cd public
 git add .
@@ -167,12 +163,18 @@ cd ..
 
 <p>然后访问 <USERNAME>.github.io
 [补图]</p>
-
 </div>
 
 
     </div>
 
     
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/themes/prism.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/components/prism-bash.min.js"></script>
+
+
+
+
   </body>
 </html>
