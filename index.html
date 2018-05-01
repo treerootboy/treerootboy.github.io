@@ -54,7 +54,15 @@
     <a href="https://treerootboy.firebaseapp.com/posts/hello-hugo/">Hello Hugo</a>
   </h1>
   <span class="post-date">Sun, Apr 29, 2018</span>
-  Hello Hugo
+  Hello Hugo  Hugo 是使用 golang 编写的静态网站生成框架，可用于构建官网、博客等，号称是全世界最快的 基于学习 golang 的初衷，我的 blog 也顺势转成 golang
+ 下面介绍如何使用 Hugo + Github Page 构建个人博客
+ 以下教程均以 macos 环境为主
+ Quick Start 安装 Hugo brew install hugo  检查安装版本，这里安装的是0.40.1
+hugo version Hugo Static Site Generator v0.40.1 darwin/amd64 BuildDate:  创建一个新 blog hugo new site goblog  添加一个主题 Hyde cd goblog git clone https://github.com/spf13/hyde.git themes/hyde echo 'themes = &quot;hyde&quot;' &gt;&gt; config.toml  运行本地web服务 hugo server -D | EN +------------------+----+ Pages | 3 Paginator pages | 0 Non-page files | 0 Static files | 0 Processed images | 0 Aliases | 0 Sitemaps | 1 Cleaned | 0 Total in 51 ms Watching for changes in /path/to/goblog/{content,data,layouts,static} Watching for config changes in /path/to/goblog/config.
+  
+  <div class="read-more-link">
+    <a href="/posts/hello-hugo/">Read More…</a>
+  </div>
   
 </div>
 </div>

@@ -51,7 +51,124 @@
     <div class="post">
   <h1>Hello Hugo</h1>
   <span class="post-date">Sun, Apr 29, 2018</span>
-  <p>Hello Hugo</p>
+  
+
+<h1 id="hello-hugo">Hello Hugo</h1>
+
+<blockquote>
+<p>Hugo 是使用 golang 编写的静态网站生成框架，可用于构建官网、博客等，号称是全世界最快的
+基于学习 golang 的初衷，我的 blog 也顺势转成 golang</p>
+</blockquote>
+
+<p>下面介绍如何使用 Hugo + Github Page 构建个人博客</p>
+
+<blockquote>
+<p>以下教程均以 macos 环境为主</p>
+</blockquote>
+
+<h2 id="quick-start">Quick Start</h2>
+
+<h3 id="安装-hugo">安装 Hugo</h3>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<p>检查安装版本，这里安装的是0.40.1</p>
+
+<pre><code>hugo version
+
+Hugo Static Site Generator v0.40.1 darwin/amd64 BuildDate:
+</code></pre>
+
+<h3 id="创建一个新-blog">创建一个新 blog</h3>
+
+<pre><code>hugo new site goblog
+</code></pre>
+
+<h3 id="添加一个主题-hyde">添加一个主题 Hyde</h3>
+
+<pre><code>cd goblog
+git clone https://github.com/spf13/hyde.git themes/hyde
+echo 'themes = &quot;hyde&quot;' &gt;&gt; config.toml
+</code></pre>
+
+<h3 id="运行本地web服务">运行本地web服务</h3>
+
+<pre><code>hugo server -D
+
+                   | EN  
++------------------+----+
+  Pages            |  3  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  0  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 51 ms
+Watching for changes in /path/to/goblog/{content,data,layouts,static}
+Watching for config changes in /path/to/goblog/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre>
+
+<p>这是打开链接 <a href="http://localhost:1313/">http://localhost:1313/</a> 可以看到一个空白页
+[补图]</p>
+
+<h3 id="写出你第一篇文章">写出你第一篇文章</h3>
+
+<pre><code>hugo new posts/hello-world.md
+echo &quot;# Hello World&quot; &gt;&gt; contents/posts/hello-world.md
+</code></pre>
+
+<p>刷新页面你就可以看到你的第一篇文章了</p>
+
+<p>接下来要发布上 github</p>
+
+<h2 id="发布到-github-pages">发布到 Github Pages</h2>
+
+<h3 id="创建-pages-project">创建 Pages Project</h3>
+
+<p>先创建一个库 goblog 保存 hugo 代码，再创建 <USERNAME>.github.io 的库用于 github pages</p>
+
+<h3 id="配置-git">配置 git</h3>
+
+<pre><code>git init
+git remote add -b master origin https://github.com/&lt;USERNAME&gt;/goblog.git
+git add .
+git commit -m 'Init Blog Website'
+git push origin master
+
+rm -rf public
+git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
+</code></pre>
+
+<h3 id="发布">发布</h3>
+
+<blockquote>
+<p>发布前需要修改 contents/posts/hello-world.md
+因为 hugo new 默认的是 Draf 草稿，直接发布看不到文章</p>
+</blockquote>
+
+<pre><code>sed -i 's/draft\: true//gs' contents/posts/hello-world.md
+</code></pre>
+
+<pre><code>hugo
+
+cd public
+git add .
+git commit -m &quot;rebuilding site `date`&quot;
+git push origin master
+
+cd ..
+</code></pre>
+
+<p>然后访问 <USERNAME>.github.io
+[补图]</p>
 
 </div>
 
