@@ -6,10 +6,23 @@
     <description>Recent content on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 29 Apr 2018 15:49:06 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 21:49:21 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.ming.ws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown一键贴图</title>
+      <link>https://blog.ming.ws/posts/insert-screenshot-into-markdown/</link>
+      <pubDate>Wed, 02 May 2018 21:49:21 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/posts/insert-screenshot-into-markdown/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在之前一直没用 Github Pages 做 blog 是因为没有一款 markdown 编辑器可以直接粘贴图片。这里思路换一下，参考之前的&lt;a href=&#34;https://github.com/jiwenxing/qimage-mac&#34;&gt;七牛一键贴图&lt;/a&gt;在系统处理图片上传粘贴的问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hello Hugo</title>

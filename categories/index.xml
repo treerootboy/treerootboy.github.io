@@ -10,5 +10,23 @@
 	<atom:link href="https://blog.ming.ws/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Development</title>
+      <link>https://blog.ming.ws/categories/development/</link>
+      <pubDate>Sun, 29 Apr 2018 15:49:06 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://blog.ming.ws/categories/golang/</link>
+      <pubDate>Sun, 29 Apr 2018 15:49:06 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/categories/golang/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
