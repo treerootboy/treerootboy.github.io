@@ -168,13 +168,16 @@ a.sidebar-nav-item:focus {
 }
 
 /* Blue */
-.theme-base-0d .sidebar {
+.sidebar {
   background-color: #6a9fb5;
 }
-.theme-base-0d .content a,
-.theme-base-0d .content h1,
-.theme-base-0d .related-posts li a:hover {
+.content a,
+.content h1,
+.related-posts li a:hover {
   color: #6a9fb5;
+}
+.content h1 {
+  margin-top: 0.5rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -202,4 +205,36 @@ h6 {
 
 body {
   color: #616161;
+}
+
+.tags {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5em;
+}
+
+.tags li {
+  font-size: 0.9em;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 2px;
+}
+
+.tags li a, .tags li a:hover {
+  font-size: 0.7em;
+  border-radius: 3px;
+  padding: 3px 5px;
+  color: #FFF;
+  background-color: #6a9fb5;
+}
+
+.sidebar .tags li a, .sidebar .tags li a {
+  color: #6a9fb5;
+  background-color: #FFF;
+  font-size: 1em;
+}
+
+.post-date {
+  margin-bottom: 0.3em;
 }
