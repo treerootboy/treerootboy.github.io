@@ -6,10 +6,56 @@
     <description>Recent content in Posts on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 02 May 2018 21:49:21 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Aug 2018 10:12:01 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.ming.ws/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Win10 Mount NFS</title>
+      <link>https://blog.ming.ws/posts/devops/win10-mount-nfs/</link>
+      <pubDate>Mon, 27 Aug 2018 10:12:01 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/posts/devops/win10-mount-nfs/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;为了统一开发环境，统一使用开发服务器开发，工程师只需要mount到开发机获取代码开发即可，无需搭建开发环境&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;需求：&lt;br /&gt;
+- 区分大小写&lt;br /&gt;
+- win10 mount NFS&lt;br /&gt;
+- 自动化脚本&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>人性的弱點：認同</title>
+      <link>https://blog.ming.ws/posts/read/how-to-win-friends-and-influence-people/note1/</link>
+      <pubDate>Sun, 13 May 2018 23:08:19 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/posts/read/how-to-win-friends-and-influence-people/note1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;最近從書堆裡又挖出來這本書，翻了幾頁，剛好覺得可以解決我現在的問題：如何跟人交往。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OKR工作法读书笔记：part1</title>
+      <link>https://blog.ming.ws/posts/read/okr-radical-focus/part1/</link>
+      <pubDate>Sun, 06 May 2018 18:00:01 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/posts/read/okr-radical-focus/part1/</guid>
+      <description>&lt;h3 id=&#34;译者序&#34;&gt;译者序&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在实施的早期，我们虽然小心翼翼，但依然难以避免设定目标时的各种常见错误，或过于谨慎，或形成浮夸，或含糊概括，或纠缠绩效。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Markdown一键贴图</title>
@@ -31,7 +77,7 @@
       
       <guid>https://blog.ming.ws/posts/hello-hugo/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Hugo 是使用 golang 编写的静态生成框架，可用于构建官网、博客等，号称是全世界最快的
+&lt;p&gt;Hugo 是使用 golang 编写的静态生成框架，可用于构建官网、博客等，号称是全世界最快的&lt;br /&gt;
 基于学习 golang 的初衷，我的 blog 也顺势转成 golang&lt;/p&gt;
 &lt;/blockquote&gt;
 

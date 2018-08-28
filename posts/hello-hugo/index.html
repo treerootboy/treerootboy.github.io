@@ -46,7 +46,13 @@
     
       <li><a href="/tags/hugo">hugo</a> </li>
     
+      <li><a href="/tags/nfs">nfs</a> </li>
+    
       <li><a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">学习笔记</a> </li>
+    
+      <li><a href="/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83">开发环境</a> </li>
+    
+      <li><a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0">读书笔记</a> </li>
     
     </ul>
 
@@ -55,7 +61,7 @@
 </div>
 
     <div class="content container">
-    <div class="post">
+    <div id="post" class="post">
   <h1>Hello Hugo</h1>
   <span class="post-date">Sun, Apr 29, 2018</span>
   
@@ -67,7 +73,7 @@
   
   </ul>
   <blockquote>
-<p>Hugo 是使用 golang 编写的静态生成框架，可用于构建官网、博客等，号称是全世界最快的
+<p>Hugo 是使用 golang 编写的静态生成框架，可用于构建官网、博客等，号称是全世界最快的<br />
 基于学习 golang 的初衷，我的 blog 也顺势转成 golang</p>
 </blockquote>
 
@@ -113,7 +119,7 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 </code></pre>
 
-<p>打开链接 <a href="http://localhost:1313/">http://localhost:1313/</a> 可以看到一个空白页
+<p>打开链接 <a href="http://localhost:1313/">http://localhost:1313/</a> 可以看到一个空白页<br />
 <img src="/images/2018050201471525196860.png" alt="" /></p>
 
 <h3 id="写出你第一篇文章">写出你第一篇文章</h3>
@@ -122,7 +128,7 @@ Press Ctrl+C to stop
 echo &quot;# Hello World&quot; &gt;&gt; content/posts/hello-world.md
 </code></pre>
 
-<p>刷新页面你就可以看到你的第一篇文章了
+<p>刷新页面你就可以看到你的第一篇文章了<br />
 <img src="/images/2018050201511525197101.png" alt="" /></p>
 
 <p>接下来要发布上 github</p>
@@ -148,8 +154,8 @@ git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;
 <h3 id="发布">发布</h3>
 
 <blockquote>
-<p>发布前需要修改 contents/posts/hello-world.md，
-因为 hugo new 默认的是 Draf 草稿，直接发布看不到文章
+<p>发布前需要修改 contents/posts/hello-world.md，<br />
+因为 hugo new 默认的是 Draf 草稿，直接发布看不到文章<br />
 ，需要将文章的 draft: true 去掉</p>
 
 <p>sed -i -e &rsquo;s/draft: true//g&rsquo; content/posts/hello-world.md</p>
@@ -165,7 +171,7 @@ git push origin master
 cd ..
 </code></pre>
 
-<p>然后访问 &lt;USERNAME&gt;.github.io
+<p>然后访问 &lt;USERNAME&gt;.github.io<br />
 <img src="/images/2018050201531525197213.png" alt="" /></p>
 </div>
 
