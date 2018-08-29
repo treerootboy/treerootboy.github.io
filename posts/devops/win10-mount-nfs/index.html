@@ -83,41 +83,42 @@
 
 <p></p>
 
-<h2 id="win10-mount-nfs">Win10 Mount NFS</h2>
-
-<h3 id="安装-nfs-client">安装 NFS client</h3>
+<h2 id="安装-nfs-client">安装 NFS client</h2>
 
 <p>为了自动化，这里需要用到一个命令 DISM(镜像部署及管理工具，用于windows安装镜像的自动部署、修改)<br />
 以管理员身份打开CMD</p>
 
-<pre><code># dism 镜像路径 动作 动作参数
+<pre><code class="language-bash"># dism 镜像路径 动作 动作参数
 # online 是指当前系统
 dism /online /Enable-Feature /FeatureName:ServicesForNFS-ClientOnly /FeatureName:ClientForNFS-Infrastructure /FeatureName:NFS-Administration /NoRestart
 </code></pre>
 
-<h3 id="mount-nfs">mount NFS</h3>
+<h2 id="挂载-nfs">挂载 NFS</h2>
+
+<h4 id="nfs服务器配置">NFS服务器配置</h4>
 
 <p>假设NFS服务器是192.168.3.33</p>
 
-<pre><code>#/etc/exports
+<pre><code class="language-bash">#/etc/exports
 /home/htdocs  192.168.0.0/16(rw,sync,no_root_squash)
 </code></pre>
 
-<p>win10 mount nfs<br />
-新开一个CMD（无需管理员身份，若以管理员身份则无法在我的电脑显示，因为挂在到不同账号了）</p>
+<h4 id="win10-mount-nfs">Win10 mount NFS</h4>
 
-<pre><code># 列出可mount的路径
+<p>新开一个CMD（无需管理员身份，若以管理员身份则无法在我的电脑显示，因为挂在到不同账号了）</p>
+
+<pre><code class="language-bash"># 列出可mount的路径
 showmount -e 192.168.3.33
 
 # mount /home/htdocs 到 Z:
 mount -o nolock -o casesensitive=yes \\192.168.3.33\home\htdocs Z:
 </code></pre>
 
-<h3 id="解决权限问题">解决权限问题</h3>
+<h2 id="解决权限问题">解决权限问题</h2>
 
 <p>下载 <a href="/clientfornfs.reg">clientfornfs.reg</a></p>
 
-<pre><code># clientfornfs.reg
+<pre><code class="language-bash"># clientfornfs.reg
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ClientForNFS\CurrentVersion\Default]
@@ -127,7 +128,7 @@ Windows Registry Editor Version 5.00
 
 <p>以管理员身份打开CMD，导入注册表，并重启 NFS client</p>
 
-<pre><code>regedit /s clientfornfs.reg
+<pre><code class="language-bash">regedit /s clientfornfs.reg
 nfsadmin client stop
 nfsadmin client start
 umount Z:
@@ -139,6 +140,16 @@ mount -o anon -o nolock -o casesensitive=yes \\192.168.3.33\home\htdocs Z:
 <code>-o nolock</code> 不锁定文件<br />
 <code>-o casesensitive=yes</code> 区分大小写<br />
 <code>-o fileaccess=755</code> 区分大小写</p>
+
+<h2 id="最终代码">最终代码</h2>
+
+<p>下载 <a href="/win10-mount-nfs.bat">win10-mount-nfs.bat</a></p>
+
+<pre><code class="language-bash">代码顶部有三个变量
+SET NFS_PATH=&quot;\\192.168.3.33\home\htdocs&quot;
+SET MOUNT_PATH=&quot;Z:&quot;
+SET USER=&quot;username&quot;
+</code></pre>
 </div>
 
 
