@@ -42,15 +42,5 @@
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>这是一篇利用CI和Web Markdown编辑器写的文章</title>
-      <link>https://blog.ming.ws/posts/createbyci/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ming.ws/posts/createbyci/</guid>
-      <description>这是一篇利用CI和Web Markdown编辑器写的文章
-CI和Web Markdown使用方法后面抽时间再续写更新</description>
-    </item>
-    
   </channel>
 </rss>
