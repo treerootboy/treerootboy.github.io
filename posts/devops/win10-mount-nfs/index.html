@@ -1,7 +1,7 @@
 <html  lang="zh-cn">
 <head>
   <meta charset="UTF-8">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.48" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -135,17 +135,17 @@ umount Z:
 mount -o anon -o nolock -o casesensitive=yes \\192.168.3.33\home\htdocs Z:
 </code></pre>
 
-<p>mount 参数<br />
-<code>-o anon</code> 匿名挂载<br />
-<code>-o nolock</code> 不锁定文件<br />
-<code>-o casesensitive=yes</code> 区分大小写<br />
-<code>-o fileaccess=755</code> 区分大小写</p>
+<p>mount 参数</p>
 
-<h2 id="最终代码">最终代码</h2>
+<pre><code class="language--o">```-o nolock``` 不锁定文件
+```-o casesensitive=yes``` 区分大小写
+```-o fileaccess=755``` 区分大小写
 
-<p>下载 <a href="/win10-mount-nfs.bat">win10-mount-nfs.bat</a></p>
 
-<pre><code class="language-bash">代码顶部有三个变量
+## 最终代码
+下载 [win10-mount-nfs.bat](/win10-mount-nfs.bat)
+```bash
+代码顶部有三个变量
 SET NFS_PATH=&quot;\\192.168.3.33\home\htdocs&quot;
 SET MOUNT_PATH=&quot;Z:&quot;
 SET USER=&quot;username&quot;
