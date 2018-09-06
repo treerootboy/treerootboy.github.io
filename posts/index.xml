@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Sep 2018 01:38:13 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Sep 2018 13:48:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.ming.ws/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>fabric api 分析</title>
+      <link>https://blog.ming.ws/posts/stuff/fabric-api-fetch/</link>
+      <pubDate>Thu, 06 Sep 2018 13:48:00 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/posts/stuff/fabric-api-fetch/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;为了解决每月总结蛋疼的手动统计 app可用率 数据，决定从 fabric.io 捞取数据。但 fabric.io 并没有公开api，只能分析页面的js和请求连接了&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>这篇文章使用 CI 发布</title>
@@ -18,7 +31,7 @@
       
       <guid>https://blog.ming.ws/posts/createbyci/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;这篇文章使用 CircelCI 发布&lt;/p&gt;
+&lt;p&gt;这篇文章使用 CircelCI 发布，使用StackEdit 编辑，实现简单快捷的免费网页发布博客功能&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -90,12 +103,12 @@
     
     <item>
       <title></title>
-      <link>https://blog.ming.ws/posts/baby/newborn/</link>
+      <link>https://blog.ming.ws/posts/stuff/zabbix-api-fetch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.ming.ws/posts/baby/newborn/</guid>
-      <description> - -—
-  </description>
+      <guid>https://blog.ming.ws/posts/stuff/zabbix-api-fetch/</guid>
+      <description>eyJoaXN0b3J5IjpbLTIwODg3NDY2MTJdfQ==
+&amp;ndash;&amp;gt;</description>
     </item>
     
   </channel>
