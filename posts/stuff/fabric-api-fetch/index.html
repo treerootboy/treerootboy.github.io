@@ -79,7 +79,7 @@
 <p>首先要解决登入问题</p>
 
 <p>登入前要先拿到 csrf-token 才能请求登入接口<br />
-csrf-token 在<code>https://fabric.io/login</code> 页面的meta里 <code>//head/meta[contains(@name, &quot;csrf-token&quot;)]</code></p>
+csrf-token 在<code>https://fabric.io/login</code> 页面的meta里 <code>//head/meta[contains(@name, &quot;csrf-token&quot;)]/@content</code></p>
 
 <pre><code class="language-登入API:">
 获取access_token
@@ -134,9 +134,10 @@ https://api-dash.fabric.io/graphql?relayDebugName=AppScalars
 </code></pre>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNDcyNTA3LC0xMjgyNzQyOTg4LDUyOD
-E3NDM1NiwtOTQyNzMyNTA2LC0zNjIzMDIyMTgsLTEwNjEwNzcw
-MDYsLTg2Mjc3NjE5MSwtNDYzOTYwMDA2XX0=
+eyJoaXN0b3J5IjpbLTQxNjk2NzMwMyw5ODI0NzI1MDcsLTEyOD
+I3NDI5ODgsNTI4MTc0MzU2LC05NDI3MzI1MDYsLTM2MjMwMjIx
+OCwtMTA2MTA3NzAwNiwtODYyNzc2MTkxLC00NjM5NjAwMDZdfQ
+==
 -->
 </div>
 
