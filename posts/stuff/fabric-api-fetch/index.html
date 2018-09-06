@@ -110,7 +110,7 @@ csrf-token 在<code>https://fabric.io/login</code> 页面的meta里 <code>//head
 <pre><code class="language-json">用户数：
 https://api-dash.fabric.io/graphql?relayDebugName=SessionAndUserMetrics
 {
-    &quot;query&quot;: &quot;query SessionAndUserMetrics($externalId_0:String!,$start_1:UnixTimestamp!,$end_2:UnixTimestamp!) {project(externalId:$externalId) {answers {dau:dauByBuilds(builds:[\&quot;all\&quot;],start:$start,end:$end) {scalar}}}&quot;,
+    &quot;query&quot;: &quot;query SessionAndUserMetrics($externalId:String!,$start:UnixTimestamp!,$end:UnixTimestamp!) {project(externalId:$externalId) {answers {dau:dauByBuilds(builds:[\&quot;all\&quot;],start:$start,end:$end) {scalar}}}&quot;,
     &quot;variables&quot;: {
 	  &quot;end&quot;: 1535759999,
 	  &quot;externalId&quot;: &quot;xxxxxxxxxxx&quot;,
@@ -134,10 +134,10 @@ https://api-dash.fabric.io/graphql?relayDebugName=AppScalars
 </code></pre>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjk2NzMwMyw5ODI0NzI1MDcsLTEyOD
-I3NDI5ODgsNTI4MTc0MzU2LC05NDI3MzI1MDYsLTM2MjMwMjIx
-OCwtMTA2MTA3NzAwNiwtODYyNzc2MTkxLC00NjM5NjAwMDZdfQ
-==
+eyJoaXN0b3J5IjpbMzU0NzY3MzMzLC00MTY5NjczMDMsOTgyND
+cyNTA3LC0xMjgyNzQyOTg4LDUyODE3NDM1NiwtOTQyNzMyNTA2
+LC0zNjIzMDIyMTgsLTEwNjEwNzcwMDYsLTg2Mjc3NjE5MSwtND
+YzOTYwMDA2XX0=
 -->
 </div>
 
