@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Ming 明</title>
+    <link>https://blog.ming.ws/tags/php/</link>
+    <description>Recent content in Php on Ming 明</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.ming.ws/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP7升级坑</title>
+      <link>https://blog.ming.ws/posts/devops/php7-upgrade-guide/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/posts/devops/php7-upgrade-guide/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;最近在升级某业务的PHP版本，&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
