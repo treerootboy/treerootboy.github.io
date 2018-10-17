@@ -91,11 +91,12 @@
 
 <h4 id="session-memcache">Session - Memcache</h4>
 
-<p>既然是登入出问题，那最大可能就是Session出问题。业务的 Session 是由 Memcache 存储<br />
+<p>既然是登入出问题，那最大可能就是Session出问题。业务的 Session 由 Memcache 存储，登入代码没有改动，那问题就可能出现在 Memcache 或者 PHP/LV的升级上<br />
+考虑wen<br />
 1. PHP7.x 不再支持 memcahe 扩展， 要改用 memcached<br />
 2. LV5.7升级，但我们使用的是 Native 代码写的 SessionSaveHandler<br />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjI3MzgxNywxNTI3MTkxMjczXX0=
+eyJoaXN0b3J5IjpbLTE5ODc5MzM4MTYsMTUyNzE5MTI3M119
 --></p>
 </div>
 
