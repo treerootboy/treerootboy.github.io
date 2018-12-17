@@ -19,9 +19,7 @@
       <guid>https://blog.ming.ws/posts/devops/php7-upgrade-guide/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;最近在升级某业务的PHP版本到7，出现与其他PHP5业务的Session不兼容，导致用户无法正常登入。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

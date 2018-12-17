@@ -19,9 +19,7 @@
       <guid>https://blog.ming.ws/posts/stuff/fabric-api-fetch/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;为了解决每月总结蛋疼的手动统计 app可用率 数据，决定从 fabric.io 捞取数据。但 fabric.io 并没有公开api，只能分析页面的js和请求连接了&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>
