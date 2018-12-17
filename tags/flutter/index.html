@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>PHP7升级坑 - Session &middot; Ming 明</title>
+  <title>Flutter &middot; Ming 明</title>
 
   
   <link type="text/css" rel="stylesheet" href="https://blog.ming.ws/css/print.css" media="print">
@@ -21,7 +21,7 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="Ming 明" />
+  <link href="https://blog.ming.ws/tags/flutter/index.xml" rel="alternate" type="application/rss+xml" title="Ming 明" />
 
   
 </head>
@@ -65,47 +65,32 @@
 </div>
 
     <div class="content container">
-    <div id="post" class="post">
-  <h1>PHP7升级坑 - Session</h1>
+    <p>
+
+TAG: flutter
+
+</p>
+<div class="posts">
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://blog.ming.ws/posts/flutter/install.md/#post">Flutter 安装环境</a>
+  </h1>
   <span class="post-date">Sat, Sep 1, 2018</span>
-  
   <ul class="tags">
   
-    <li><a href="/tags/php">php</a> </li>
+    <li><a href="/tags/flutter">flutter</a> </li>
   
   </ul>
   <blockquote>
-<p>最近在升级某业务的PHP版本到7，出现与其他PHP5业务的Session不兼容，导致用户无法正常登入。</p>
+<p>Flutter</p>
 </blockquote>
-
-<h2 id="症状">症状</h2>
-
-<blockquote>
-<p>部门有两业务，共用Session与登入信息，在任意业务登入即同步登入<br />
-      A业务使用自研框架，环境 PHP5.3.28<br />
-      B业务使用 LV 框架，环境 PHP5.4.16<br />
-最近升级 LV5.7 需要升级 PHP 7.1+，升级后，用户反馈登入返回首页后自动登出</p>
-</blockquote>
-
-<h3 id="排查">排查</h3>
-
-<h4 id="session-memcache">Session - Memcache</h4>
-
-<p>既然是登入出问题，那最大可能就是Session出问题。业务的 Session 由 Memcache 存储，登入代码没有改动，那问题就可能出现在 Memcache 或者 PHP/LV的升级上</p>
-
-<p>考虑问题点：<br />
-1. Memcache 空间满了？因为之前出现过<br />
-2. PHP7.x 不再支持 memcahe 扩展，改用了 memcached，Memcached 与 Memcache 不兼容？<br />
-3. LV5.7升级，但我们使用的是 Native 代码写的 SessionSaveHandler</p>
-
-<p>待更新<br />
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzMDI2NzMxLC0xMjMyNjk5NDEyLDE1Mj
-cxOTEyNzNdfQ==
---></p>
+  
+  <div class="read-more-link">
+    <a href="/posts/flutter/install.md/#post">Read More…</a>
+  </div>
+  
 </div>
-
-
+</div>
     </div>
 
     
