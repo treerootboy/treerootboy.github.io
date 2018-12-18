@@ -84,14 +84,35 @@
 git clone -b v1.0.0 https://github.com/flutter/flutter.git
 # 定义 PATH 让 flutter cli 可以全局使用
 export PATH=$PATH:`pwd`/flutter/bin
-# 检查及安装 flutter 所需环境
-flutter doctor
+</code></pre>
 
+<h3 id="检查及安装-flutter-所需环境">检查及安装 flutter 所需环境</h3>
+
+<pre><code class="language-flutter">```bash
+[!] iOS toolchain - develop for iOS devices (Xcode 10.1)
+    ✗ libimobiledevice and ideviceinstaller are not installed. To install with
+      Brew, run:
+        brew update
+        brew install --HEAD usbmuxd
+        brew link usbmuxd
+        brew install --HEAD libimobiledevice
+        brew install ideviceinstaller
+    ✗ ios-deploy not installed. To install with Brew:
+        brew install ios-deploy
+    ! CocoaPods out of date (1.5.0 is recommended).
+        CocoaPods is used to retrieve the iOS platform side's plugin code that
+        responds to your plugin usage on the Dart side.
+        Without resolving iOS dependencies with CocoaPods, plugins will not work
+        on iOS.
+        For more info, see https://flutter.io/platform-plugins
+      To upgrade:
+        brew upgrade cocoapods
+        pod setup
 </code></pre>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDM4NDM1NSwxNzE4MTYyNTc5LDY2NT
-UwMzQxNCwtNzU2Nzg5NDAxXX0=
+eyJoaXN0b3J5IjpbOTI0MDAzNzMwLDE3MTgxNjI1NzksNjY1NT
+AzNDE0LC03NTY3ODk0MDFdfQ==
 -->
 </div>
 
