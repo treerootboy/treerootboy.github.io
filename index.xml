@@ -6,10 +6,20 @@
     <description>Recent content on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Sep 2018 13:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 08:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.ming.ws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何分解一个你不了解的技术任务？ Technical spkie</title>
+      <link>https://blog.ming.ws/posts/read/10x-develop-technique/technical-spkie/</link>
+      <pubDate>Wed, 06 Mar 2019 08:30:00 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/posts/read/10x-develop-technique/technical-spkie/</guid>
+      <description>&lt;blockquote&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     
     <item>
       <title>fabric api 分析</title>
@@ -30,17 +40,6 @@
       <guid>https://blog.ming.ws/posts/createbyci/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;这篇文章使用 CircelCI 发布，使用StackEdit 编辑，实现简单快捷的免费网页发布博客功能&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blog.ming.ws/posts/read/10x-develop-technique/technical-spkie/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://blog.ming.ws/posts/read/10x-develop-technique/technical-spkie/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;引言&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
