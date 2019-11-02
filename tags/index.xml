@@ -6,37 +6,10 @@
     <description>Recent content in Tags on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 08:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.ming.ws/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Flutter</title>
-      <link>https://blog.ming.ws/tags/flutter/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://blog.ming.ws/tags/flutter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://blog.ming.ws/tags/hugo/</link>
-      <pubDate>Tue, 04 Sep 2018 01:38:13 +0800</pubDate>
-      
-      <guid>https://blog.ming.ws/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Php</title>
-      <link>https://blog.ming.ws/tags/php/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://blog.ming.ws/tags/php/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>学习笔记</title>
@@ -48,20 +21,47 @@
     </item>
     
     <item>
-      <title>开发环境</title>
-      <link>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
-      <pubDate>Mon, 27 Aug 2018 10:12:01 +0800</pubDate>
-      
-      <guid>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>自动化</title>
       <link>https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
       <pubDate>Thu, 06 Sep 2018 13:48:00 +0800</pubDate>
       
       <guid>https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://blog.ming.ws/tags/hugo/</link>
+      <pubDate>Tue, 04 Sep 2018 01:38:13 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flutter</title>
+      <link>https://blog.ming.ws/tags/flutter/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://blog.ming.ws/tags/php/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>开发环境</title>
+      <link>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Mon, 27 Aug 2018 10:12:01 +0800</pubDate>
+      
+      <guid>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
       <description></description>
     </item>
     

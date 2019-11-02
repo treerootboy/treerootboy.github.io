@@ -1,7 +1,7 @@
 <html  lang="zh-cn">
 <head>
   <meta charset="UTF-8">
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.58.3" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -85,55 +85,63 @@ csrf-token 在<code>https://fabric.io/login</code> 页面的meta里 <code>//head
 
 <pre><code class="language-登入API:">
 获取access_token
-```json
-{
-   ...
-   &quot;frontend_access_token&quot;: &quot;xxxxxxxx&quot;,
-   &quot;watched_project_ids&quot;: [
-	   &quot;xxxxxxxxxxxxxxxxxx&quot;,
-	   &quot;xxxxxxxxxxxxxxxxxx&quot;
-   ]
-   ...
-}
 </code></pre>
 
-<p>然后是具体的指标，他使用的是 graphql</p>
+<p>json<br />
+{<br />
+   &hellip;<br />
+   &ldquo;frontend_access_token&rdquo;: &ldquo;xxxxxxxx&rdquo;,<br />
+   &ldquo;watched_project_ids&rdquo;: [<br />
+       &ldquo;xxxxxxxxxxxxxxxxxx&rdquo;,<br />
+       &ldquo;xxxxxxxxxxxxxxxxxx&rdquo;<br />
+   ]<br />
+   &hellip;<br />
+}</p>
 
-<p>请求需要加入头部<br />
-1. 填入登入拿到的 access_token<br />
-2. content-type 指定 json</p>
+<pre><code>
+然后是具体的指标，他使用的是 graphql 
 
-<pre><code class="language-bash">-H 'Authorization: Bearer xxxxxxxxx'
--H 'Content-Type: application/json'
+请求需要加入头部
+1. 填入登入拿到的 access_token
+2. content-type 指定 json
 </code></pre>
 
-<p>可用率通过分析他的 js 发现是以 <code>崩溃数/用户数</code>得出 ，这里需要两个API</p>
+<p>bash<br />
+-H &lsquo;Authorization: Bearer xxxxxxxxx&rsquo;<br />
+-H &lsquo;Content-Type: application/json&rsquo;</p>
 
-<pre><code class="language-json">用户数：
-https://api-dash.fabric.io/graphql?relayDebugName=SessionAndUserMetrics
-{
-    &quot;query&quot;: &quot;query SessionAndUserMetrics($externalId:String!,$start:UnixTimestamp!,$end:UnixTimestamp!) {project(externalId:$externalId) {answers {dau:dauByBuilds(builds:[\&quot;all\&quot;],start:$start,end:$end) {scalar}}}&quot;,
-    &quot;variables&quot;: {
-	  &quot;end&quot;: 1535759999,
-	  &quot;externalId&quot;: &quot;xxxxxxxxxxx&quot;,
-	  &quot;start&quot;: 1533081600
-	}
-}
+<pre><code>
+可用率通过分析他的 js 发现是以 ```崩溃数/用户数```得出 ，这里需要两个API
 </code></pre>
 
-<pre><code class="language-json">崩溃数：
-https://api-dash.fabric.io/graphql?relayDebugName=AppScalars
-{
-  &quot;query&quot;: &quot;query AppScalars($externalId:String!,$type:IssueType!,$start:UnixTimestamp!,$end:UnixTimestamp!,$filters:IssueFiltersType!) {project(externalId:$externalId) {crashlytics {scalars:scalars(synthesizedBuildVersions:[],type:$type,start:$start,end:$end,filters:$filters,buildIds:[]) {crashes}}}}&quot;,
-  &quot;variables&quot;: {
-    &quot;end&quot;: 1533686399,  
-    &quot;externalId&quot;: &quot;xxxxxxx&quot;,
-    &quot;filters&quot;: {},
-    &quot;start&quot;: 1531094400,
-    &quot;type&quot;: &quot;crash&quot;
-  }
-}
-</code></pre>
+<p>json<br />
+用户数：<br />
+<a href="https://api-dash.fabric.io/graphql?relayDebugName=SessionAndUserMetrics">https://api-dash.fabric.io/graphql?relayDebugName=SessionAndUserMetrics</a><br />
+{<br />
+    &ldquo;query&rdquo;: &ldquo;query SessionAndUserMetrics($externalId:String!,$start:UnixTimestamp!,$end:UnixTimestamp!) {project(externalId:$externalId) {answers {dau:dauByBuilds(builds:[\&ldquo;all\&ldquo;],start:$start,end:$end) {scalar}}}&ldquo;,<br />
+    &ldquo;variables&rdquo;: {<br />
+      &ldquo;end&rdquo;: 1535759999,<br />
+      &ldquo;externalId&rdquo;: &ldquo;xxxxxxxxxxx&rdquo;,<br />
+      &ldquo;start&rdquo;: 1533081600<br />
+    }<br />
+}</p>
+
+<pre><code></code></pre>
+
+<p>json<br />
+崩溃数：<br />
+<a href="https://api-dash.fabric.io/graphql?relayDebugName=AppScalars">https://api-dash.fabric.io/graphql?relayDebugName=AppScalars</a><br />
+{<br />
+  &ldquo;query&rdquo;: &ldquo;query AppScalars($externalId:String!,$type:IssueType!,$start:UnixTimestamp!,$end:UnixTimestamp!,$filters:IssueFiltersType!) {project(externalId:$externalId) {crashlytics {scalars:scalars(synthesizedBuildVersions:[],type:$type,start:$start,end:$end,filters:$filters,buildIds:[]) {crashes}}}}&ldquo;,<br />
+  &ldquo;variables&rdquo;: {<br />
+    &ldquo;end&rdquo;: 1533686399,<br />
+    &ldquo;externalId&rdquo;: &ldquo;xxxxxxx&rdquo;,<br />
+    &ldquo;filters&rdquo;: {},<br />
+    &ldquo;start&rdquo;: 1531094400,<br />
+    &ldquo;type&rdquo;: &ldquo;crash&rdquo;<br />
+  }<br />
+}<br />
+```</p>
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzU0NzY3MzMzLC00MTY5NjczMDMsOTgyND

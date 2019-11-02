@@ -3,7 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.ming.ws/</loc>
+    <lastmod>2019-03-06T08:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ming.ws/posts/</loc>
+    <lastmod>2019-03-06T08:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ming.ws/tags/</loc>
+    <lastmod>2019-03-06T08:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.ming.ws/posts/read/10x-develop-technique/technical-spkie/</loc>
+    <lastmod>2019-03-06T08:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ming.ws/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-03-06T08:30:00+08:00</lastmod>
   </url>
   
@@ -13,12 +33,32 @@
   </url>
   
   <url>
+    <loc>https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
+    <lastmod>2018-09-06T13:48:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ming.ws/tags/hugo/</loc>
+    <lastmod>2018-09-04T01:38:13+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.ming.ws/posts/createbyci/</loc>
     <lastmod>2018-09-04T01:38:13+08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://blog.ming.ws/tags/flutter/</loc>
+    <lastmod>2018-09-01T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.ming.ws/posts/flutter/install.md/</loc>
+    <lastmod>2018-09-01T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ming.ws/tags/php/</loc>
     <lastmod>2018-09-01T00:00:00+08:00</lastmod>
   </url>
   
@@ -33,7 +73,17 @@
   </url>
   
   <url>
+    <loc>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2018-08-27T10:12:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.ming.ws/posts/read/okr-radical-focus/part1/</loc>
+    <lastmod>2018-05-06T18:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ming.ws/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2018-05-06T18:00:01+08:00</lastmod>
   </url>
   
@@ -49,71 +99,11 @@
   
   <url>
     <loc>https://blog.ming.ws/posts/stuff/zabbix-api-fetch/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.ming.ws/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/flutter/</loc>
-    <lastmod>2018-09-01T00:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/hugo/</loc>
-    <lastmod>2018-09-04T01:38:13+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/</loc>
-    <lastmod>2019-03-06T08:30:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/php/</loc>
-    <lastmod>2018-09-01T00:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/posts/</loc>
-    <lastmod>2019-03-06T08:30:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/</loc>
-    <lastmod>2018-09-01T00:00:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2019-03-06T08:30:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2018-08-27T10:12:01+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2018-09-06T13:48:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ming.ws/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-05-06T18:00:01+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
