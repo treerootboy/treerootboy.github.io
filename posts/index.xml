@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ming 明</title>
-    <link>https://blog.ming.ws/posts/</link>
+    <link>https://blog.ming01.dev/posts/</link>
     <description>Recent content in Posts on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 06 Mar 2019 08:30:00 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.ming.ws/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ming01.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何分解一个你不了解的技术任务？ Technical spkie</title>
-      <link>https://blog.ming.ws/posts/read/10x-develop-technique/technical-spkie/</link>
+      <link>https://blog.ming01.dev/posts/read/10x-develop-technique/technical-spkie/</link>
       <pubDate>Wed, 06 Mar 2019 08:30:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/read/10x-develop-technique/technical-spkie/</guid>
+      <guid>https://blog.ming01.dev/posts/read/10x-develop-technique/technical-spkie/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Technical spike 技术刺探，来源于极限编程，控制风险，减少不确定性。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>fabric api 分析</title>
-      <link>https://blog.ming.ws/posts/stuff/fabric-api-fetch/</link>
+      <link>https://blog.ming01.dev/posts/stuff/fabric-api-fetch/</link>
       <pubDate>Thu, 06 Sep 2018 13:48:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/stuff/fabric-api-fetch/</guid>
+      <guid>https://blog.ming01.dev/posts/stuff/fabric-api-fetch/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;为了解决每月总结蛋疼的手动统计 app可用率 数据，决定从 fabric.io 捞取数据。但 fabric.io 并没有公开api，只能分析页面的js和请求连接了&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>这篇文章使用 CI 发布</title>
-      <link>https://blog.ming.ws/posts/createbyci/</link>
+      <link>https://blog.ming01.dev/posts/createbyci/</link>
       <pubDate>Tue, 04 Sep 2018 01:38:13 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/createbyci/</guid>
+      <guid>https://blog.ming01.dev/posts/createbyci/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;这篇文章使用 CircelCI 发布，使用StackEdit 编辑，实现简单快捷的免费网页发布博客功能&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>Flutter 安装环境</title>
-      <link>https://blog.ming.ws/posts/flutter/install.md/</link>
+      <link>https://blog.ming01.dev/posts/flutter/install.md/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/flutter/install.md/</guid>
+      <guid>https://blog.ming01.dev/posts/flutter/install.md/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Flutter&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -57,10 +57,10 @@
     
     <item>
       <title>PHP7升级坑 - Session</title>
-      <link>https://blog.ming.ws/posts/devops/php7-upgrade-guide/</link>
+      <link>https://blog.ming01.dev/posts/devops/php7-upgrade-guide/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/devops/php7-upgrade-guide/</guid>
+      <guid>https://blog.ming01.dev/posts/devops/php7-upgrade-guide/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;最近在升级某业务的PHP版本到7，出现与其他PHP5业务的Session不兼容，导致用户无法正常登入。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -68,10 +68,10 @@
     
     <item>
       <title>Win10 Mount NFS</title>
-      <link>https://blog.ming.ws/posts/devops/win10-mount-nfs/</link>
+      <link>https://blog.ming01.dev/posts/devops/win10-mount-nfs/</link>
       <pubDate>Mon, 27 Aug 2018 10:12:01 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/devops/win10-mount-nfs/</guid>
+      <guid>https://blog.ming01.dev/posts/devops/win10-mount-nfs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;为了统一开发环境，统一使用开发服务器开发，工程师只需要mount到开发机获取代码开发即可，无需搭建开发环境&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -84,10 +84,10 @@
     
     <item>
       <title>OKR工作法读书笔记：part1</title>
-      <link>https://blog.ming.ws/posts/read/okr-radical-focus/part1/</link>
+      <link>https://blog.ming01.dev/posts/read/okr-radical-focus/part1/</link>
       <pubDate>Sun, 06 May 2018 18:00:01 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/read/okr-radical-focus/part1/</guid>
+      <guid>https://blog.ming01.dev/posts/read/okr-radical-focus/part1/</guid>
       <description>&lt;h3 id=&#34;译者序&#34;&gt;译者序&lt;/h3&gt;
 
 &lt;blockquote&gt;
@@ -97,10 +97,10 @@
     
     <item>
       <title>Markdown一键贴图</title>
-      <link>https://blog.ming.ws/posts/insert-screenshot-into-markdown/</link>
+      <link>https://blog.ming01.dev/posts/insert-screenshot-into-markdown/</link>
       <pubDate>Wed, 02 May 2018 21:49:21 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/insert-screenshot-into-markdown/</guid>
+      <guid>https://blog.ming01.dev/posts/insert-screenshot-into-markdown/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;在之前一直没用 Github Pages 做 blog 是因为没有一款 markdown 编辑器可以直接粘贴图片。这里思路换一下，参考之前的&lt;a href=&#34;https://github.com/jiwenxing/qimage-mac&#34;&gt;七牛一键贴图&lt;/a&gt;在系统处理图片上传粘贴的问题。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -108,10 +108,10 @@
     
     <item>
       <title>Hello Hugo</title>
-      <link>https://blog.ming.ws/posts/hello-hugo/</link>
+      <link>https://blog.ming01.dev/posts/hello-hugo/</link>
       <pubDate>Sun, 29 Apr 2018 15:49:06 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/hello-hugo/</guid>
+      <guid>https://blog.ming01.dev/posts/hello-hugo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Hugo 是使用 golang 编写的静态生成框架，可用于构建官网、博客等，号称是全世界最快的&lt;br /&gt;
 基于学习 golang 的初衷，我的 blog 也顺势转成 golang&lt;/p&gt;
@@ -124,10 +124,10 @@
     
     <item>
       <title></title>
-      <link>https://blog.ming.ws/posts/stuff/zabbix-api-fetch/</link>
+      <link>https://blog.ming01.dev/posts/stuff/zabbix-api-fetch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.ming.ws/posts/stuff/zabbix-api-fetch/</guid>
+      <guid>https://blog.ming01.dev/posts/stuff/zabbix-api-fetch/</guid>
       <description></description>
     </item>
     

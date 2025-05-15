@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>php on Ming 明</title>
-    <link>https://blog.ming.ws/tags/php/</link>
+    <link>https://blog.ming01.dev/tags/php/</link>
     <description>Recent content in php on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.ming.ws/tags/php/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ming01.dev/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PHP7升级坑 - Session</title>
-      <link>https://blog.ming.ws/posts/devops/php7-upgrade-guide/</link>
+      <link>https://blog.ming01.dev/posts/devops/php7-upgrade-guide/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/devops/php7-upgrade-guide/</guid>
+      <guid>https://blog.ming01.dev/posts/devops/php7-upgrade-guide/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;最近在升级某业务的PHP版本到7，出现与其他PHP5业务的Session不兼容，导致用户无法正常登入。&lt;/p&gt;
 &lt;/blockquote&gt;</description>

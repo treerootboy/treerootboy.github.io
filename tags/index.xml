@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ming 明</title>
-    <link>https://blog.ming.ws/tags/</link>
+    <link>https://blog.ming01.dev/tags/</link>
     <description>Recent content in Tags on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 06 Mar 2019 08:30:00 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.ming.ws/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ming01.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>学习笔记</title>
-      <link>https://blog.ming.ws/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://blog.ming01.dev/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Wed, 06 Mar 2019 08:30:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://blog.ming01.dev/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>自动化</title>
-      <link>https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <link>https://blog.ming01.dev/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
       <pubDate>Thu, 06 Sep 2018 13:48:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <guid>https://blog.ming01.dev/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://blog.ming.ws/tags/hugo/</link>
+      <link>https://blog.ming01.dev/tags/hugo/</link>
       <pubDate>Tue, 04 Sep 2018 01:38:13 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/tags/hugo/</guid>
+      <guid>https://blog.ming01.dev/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>flutter</title>
-      <link>https://blog.ming.ws/tags/flutter/</link>
+      <link>https://blog.ming01.dev/tags/flutter/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/tags/flutter/</guid>
+      <guid>https://blog.ming01.dev/tags/flutter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>php</title>
-      <link>https://blog.ming.ws/tags/php/</link>
+      <link>https://blog.ming01.dev/tags/php/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/tags/php/</guid>
+      <guid>https://blog.ming01.dev/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>开发环境</title>
-      <link>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+      <link>https://blog.ming01.dev/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Mon, 27 Aug 2018 10:12:01 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+      <guid>https://blog.ming01.dev/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
       <description></description>
     </item>
     
     <item>
       <title>读书笔记</title>
-      <link>https://blog.ming.ws/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <link>https://blog.ming01.dev/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sun, 06 May 2018 18:00:01 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://blog.ming01.dev/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nfs on Ming 明</title>
-    <link>https://blog.ming.ws/tags/nfs/</link>
+    <link>https://blog.ming01.dev/tags/nfs/</link>
     <description>Recent content in Nfs on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Aug 2018 10:12:01 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.ming.ws/tags/nfs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ming01.dev/tags/nfs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Win10 Mount NFS</title>
-      <link>https://blog.ming.ws/posts/devops/win10-mount-nfs/</link>
+      <link>https://blog.ming01.dev/posts/devops/win10-mount-nfs/</link>
       <pubDate>Mon, 27 Aug 2018 10:12:01 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/devops/win10-mount-nfs/</guid>
+      <guid>https://blog.ming01.dev/posts/devops/win10-mount-nfs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;为了统一开发环境，统一使用开发服务器开发，工程师只需要mount到开发机获取代码开发即可，无需搭建开发环境&lt;/p&gt;
 &lt;/blockquote&gt;

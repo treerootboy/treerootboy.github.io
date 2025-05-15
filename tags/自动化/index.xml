@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>自动化 on Ming 明</title>
-    <link>https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+    <link>https://blog.ming01.dev/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
     <description>Recent content in 自动化 on Ming 明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 06 Sep 2018 13:48:00 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.ming.ws/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ming01.dev/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>fabric api 分析</title>
-      <link>https://blog.ming.ws/posts/stuff/fabric-api-fetch/</link>
+      <link>https://blog.ming01.dev/posts/stuff/fabric-api-fetch/</link>
       <pubDate>Thu, 06 Sep 2018 13:48:00 +0800</pubDate>
       
-      <guid>https://blog.ming.ws/posts/stuff/fabric-api-fetch/</guid>
+      <guid>https://blog.ming01.dev/posts/stuff/fabric-api-fetch/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;为了解决每月总结蛋疼的手动统计 app可用率 数据，决定从 fabric.io 捞取数据。但 fabric.io 并没有公开api，只能分析页面的js和请求连接了&lt;/p&gt;
 &lt;/blockquote&gt;</description>
