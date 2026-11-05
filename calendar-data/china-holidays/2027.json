@@ -2,8 +2,8 @@
   "year": 2027,
   "source": "https://www.news.cn/politics/20261105/f90cd6ad4df94ab4833b141e52ccfc13/c.html",
   "source_title": "国务院办公厅关于2027年部分节假日安排的通知",
-  "updated_at": "2026-11-05T09:15:07+00:00",
-  "sequence": 0,
+  "updated_at": "2026-11-05T22:56:49+00:00",
+  "sequence": 1,
   "holidays": [
     {"name": "元旦", "start": "2027-01-01", "end": "2027-01-03", "workdays": []},
     {"name": "春节", "start": "2027-02-05", "end": "2027-02-13", "workdays": ["2027-01-31", "2027-02-14"]},

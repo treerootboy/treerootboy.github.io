@@ -55,7 +55,7 @@ def build_calendar() -> Calendar:
                 event.add("sequence", data["sequence"])
                 event.add("dtstart", day)
                 event.add("dtend", day + timedelta(days=1))
-                event.add("summary", f"{holiday['name']}（{kind}）")
+                event.add("summary", "补班" if kind == "补班" else f"{holiday['name']}（放假）")
                 event.add("description", f"中国大陆{kind}安排。\n来源：{data['source_title']}\n{data['source']}")
                 event.add("url", data["source"])
                 event.add("categories", ["中国节假日", kind])
